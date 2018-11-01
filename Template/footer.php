@@ -1,4 +1,13 @@
-<!-- Ici démarre le code de votre footer -->
+<!-- start footer -->
+
+<footer class="jumbotron jumbotron-fluid bg-info text-white text-center">
+  <div class="container">
+    <h1 class="display-4"></h1>
+    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+  </div>
+</footer>
+
+<!-- end footer -->
 
   <script src="js/vendor/modernizr-3.6.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
