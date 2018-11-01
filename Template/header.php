@@ -21,7 +21,7 @@
 <body>
 <!-- start header -->
 
-<header class="jumbotron jumbotron-fluid bg-info text-white text-center">
+<header class="jumbotron jumbotron-fluid bg-info text-white text-center mb-5">
   <div class="container">
     <h1 class="display-4">Mon site eCommerce</h1>
     <p class="lead"></p>
