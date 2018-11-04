@@ -14,7 +14,7 @@ function getProducts() {
     [
       "id" => 0,
       "name" => "Chevrolet Impala",
-      "price" => 35000,
+      "price" => 35000 . " " . "euros",
       "stock" => false,
       "description" =>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category" => "car",
@@ -23,7 +23,7 @@ function getProducts() {
     [
       "id" => 1,
       "name" => "Xbox",
-      "price" => 500,
+      "price" => 500 . " " . "euros",
       "stock" => true,
       "description" =>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category" => "video games",
@@ -32,7 +32,7 @@ function getProducts() {
     [
       "id" => 2,
       "name" => "MacBook Pro",
-      "price" => 2000,
+      "price" => 2000 . " " . "euros",
       "stock" => true,
       "description" =>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category" => "computer",
@@ -41,7 +41,7 @@ function getProducts() {
     [
       "id" => 3,
       "name" => "VTT randonnée",
-      "price" => 450,
+      "price" => 450 . " " . "euros",
       "stock" => true,
       "description" =>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category" => "sport",
@@ -50,7 +50,7 @@ function getProducts() {
     [
       "id" =>4,
       "name" => "Rolex 1968",
-      "price" => 15000,
+      "price" => 15000 . " " . "euros",
       "stock" => true,
       "description" =>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category" => "watch",
@@ -59,7 +59,7 @@ function getProducts() {
     [
       "id" =>5,
       "name" => "A blue dress",
-      "price" => 150,
+      "price" => 150 . " " . "euros",
       "stock" => false,
       "description" =>"Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
       "category" => "clothes",
