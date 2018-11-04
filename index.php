@@ -22,6 +22,14 @@
       <label for="password" class="ml-3">Mot de passe : </label>
       <input type="password" class="form-control" name="password" placeholder="Entrer votre mot de passe...">
     </div>
+    <div class="form-group">
+      <label for="status" class="ml-3">Status : </label>
+      <input type="text" class="form-control" name="status" placeholder="Entrer votre status...">
+    </div>
+    <div class="form-group">
+      <label for="sexe" class="ml-3">Sexe : </label>
+      <input type="text" class="form-control" name="sexe" placeholder="Entrer votre sexe...">
+    </div>
     <button type="submit" class="btn btn-primary mb-5">Valider</button>
   </form>
 </div>

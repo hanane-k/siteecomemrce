@@ -6,12 +6,20 @@
     include "Template/header.php";
 ?>
 <?php
-require "Model/function.php";
+    require "function.php";
+    $products = getProducts();
+    foreach ($products as $key => $product) {
+        // echo "Nom du produit : " . $_SESSION["product"]["name"];
+        // echo "Le Prix : " . $_SESSION["product"]["price"];
+        // echo "La Catégorie : " . $_SESSION["product"]["category"];
+        // echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
+    }
 ?>
+
 <!-- user informations -->
 <div class="float text-center row p-0 m-0">
-    <aside class="card" style="width: 18rem;">
-        <img class="card-img-top" src="img/avatar.png" alt="Card image cap">
+    <aside class="card mb-5 ml-auto" style="width: 18rem;">
+        <img class="card-img-top mb-5" src="img/avatar.png" alt="image d'utilisateur">
         <div class="card-body">
             <p class="card-text">
                 <?php
@@ -29,110 +37,106 @@ require "Model/function.php";
 
 <!-- products -->
 
+
     <div class="row container m-auto">
         <div class="col-12 col-md-6 col-lg-4 mb-5">
             <div class="card">
-                <img class="card-img-top" src="tile-wide.png" alt="Card image cap">
+                <img class="card-img-top" src="tile-wide.png" alt="image du produit">
                 <div class="card-body p-0 text-center">
                     <p class="card-text p-2">
                         <?php
-                            session_start();
-                            echo "nom : " .$_SESSION["product"]["name"];
-                            echo $_SESSION["product"]["price"];
-                            echo $_SESSION["product"]["category"];
-                            echo $_SESSION["product"]["made_in"];
+                            echo "Nom du produit : " . $_SESSION["product"]["name"];
+                            echo "Le Prix : " . $_SESSION["product"]["price"];
+                            echo "La Catégorie : " . $_SESSION["product"]["category"];
+                            echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
                         ?>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5">
             <div class="card">
-                <img class="card-img-top" src="tile-wide.png" alt="Card image cap">
+                <img class="card-img-top" src="tile-wide.png" alt="image du produit">
                 <div class="card-body p-0 text-center">
                     <p class="card-text p-2">
                         <?php
-                            session_start();
-                            echo "nom : " .$_SESSION["product"]["name"];
-                            echo $_SESSION["product"]["price"];
-                            echo $_SESSION["product"]["category"];
-                            echo $_SESSION["product"]["made_in"];
+                            $key = [1];
+                            echo "Nom du produit : " . $_SESSION["product"]["name"];
+                            echo "Le Prix : " . $_SESSION["product"]["price"];
+                            echo "La Catégorie : " . $_SESSION["product"]["category"];
+                            echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
                         ?>
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5">
             <div class="card">
-                <img class="card-img-top" src="tile-wide.png" alt="Card image cap">
+                <img class="card-img-top" src="tile-wide.png" alt="image du produit">
                 <div class="card-body p-0 text-center">
                     <p class="card-text p-2">
                         <?php
-                            session_start();
-                            echo "nom : " .$_SESSION["product"]["name"];
-                            echo $_SESSION["product"]["price"];
-                            echo $_SESSION["product"]["category"];
-                            echo $_SESSION["product"]["made_in"];
+                            $key = [2];
+                            echo "Nom du produit : " . $_SESSION["product"]["name"];
+                            echo "Le Prix : " . $_SESSION["product"]["price"];
+                            echo "La Catégorie : " . $_SESSION["product"]["category"];
+                            echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
                         ?>
-
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5">
             <div class="card">
-                <img class="card-img-top" src="tile-wide.png" alt="Card image cap">
+                <img class="card-img-top" src="tile-wide.png" alt="image du produit">
                 <div class="card-body p-0 text-center">
                     <p class="card-text p-2">
                         <?php
-                            session_start();
-                            echo "nom : " .$_SESSION["product"]["name"];
-                            echo $_SESSION["product"]["price"];
-                            echo $_SESSION["product"]["category"];
-                            echo $_SESSION["product"]["made_in"];
+                            $key = [3];
+                            echo "Nom du produit : " . $_SESSION["product"]["name"];
+                            echo "Le Prix : " . $_SESSION["product"]["price"];
+                            echo "La Catégorie : " . $_SESSION["product"]["category"];
+                            echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
                         ?>
-
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5">
             <div class="card">
-                <img class="card-img-top" src="tile-wide.png" alt="Card image cap">
+                <img class="card-img-top" src="tile-wide.png" alt="image du produit">
                 <div class="card-body p-0 text-center">
                     <p class="card-text p-2">
                         <?php
-                            session_start();
-                            echo "nom : " .$_SESSION["product"]["name"];
-                            echo $_SESSION["product"]["price"];
-                            echo $_SESSION["product"]["category"];
-                            echo $_SESSION["product"]["made_in"];
+                            $key = [4];
+                            echo "Nom du produit : " . $_SESSION["product"]["name"];
+                            echo "Le Prix : " . $_SESSION["product"]["price"];
+                            echo "La Catégorie : " . $_SESSION["product"]["category"];
+                            echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
                         ?>
-
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
                 </div>
             </div>
         </div>
         <div class="col-12 col-md-6 col-lg-4 mb-5">
             <div class="card">
-                <img class="card-img-top" src="tile-wide.png" alt="Card image cap">
+                <img class="card-img-top" src="tile-wide.png" alt="image du produit">
                 <div class="card-body p-0 text-center">
                     <p class="card-text p-2">
                         <?php
-                            session_start();
-                            echo "nom : " .$_SESSION["product"]["name"];
-                            echo $_SESSION["product"]["price"];
-                            echo $_SESSION["product"]["category"];
-                            echo $_SESSION["product"]["made_in"];
+                            $key = [5];
+                            echo "Nom du produit : " . $_SESSION["product"]["name"];
+                            echo "Le Prix : " . $_SESSION["product"]["price"];
+                            echo "La Catégorie : " . $_SESSION["product"]["category"];
+                            echo "Fabriqué en : " . $_SESSION["product"]["made_in"];
                         ?>
-
                     </p>
-                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    <a href="#" class="btn btn-primary mb-2">Go somewhere</a>
                 </div>
             </div>
         </div>

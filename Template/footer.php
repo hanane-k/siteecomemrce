@@ -2,8 +2,8 @@
 
 <footer class="jumbotron jumbotron-fluid bg-info text-white text-center mb-0 mt-5">
   <div class="container">
-    <h1 class="display-4"></h1>
-    <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+    <h3 class="">--  Site réalisé par Hanane Namoun / apprentie à l'ADEP  --<br>"Simplon 2018"</h3>
+    <h5 class="lead"><a class="text-white" href="#">Relations avec les investisseurs</a>  |  <a class="text-white" href="#">Informations confidentialité</a>  |  <a class="text-white" href="#">Conditions d'utilisation</a>  |  <a class="text-white" href="#">Politique de cookies</a></h5>
   </div>
 </footer>
 
