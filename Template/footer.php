@@ -1,3 +1,6 @@
+</main>
+<!-- end main -->
+
 <!-- start footer -->
 
 <footer class="jumbotron jumbotron-fluid bg-info text-white text-center mb-0 mt-5">
