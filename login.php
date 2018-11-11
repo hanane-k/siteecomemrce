@@ -14,6 +14,7 @@ foreach ($users as $key => $user) {
     session_start();
     $_SESSION["user"] = $user;
     $_SESSION["panier"] = [];
+    $_SESSION["total"] = 0;
     header("Location: products.php");
     exit;
   }

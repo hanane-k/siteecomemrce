@@ -12,6 +12,7 @@
                     echo "Mot de passe : " . $_SESSION["user"]["password"] ."<br>";
                     echo "Status : " . $_SESSION["user"]["status"] ."<br>";
                     echo "Sexe : " . $_SESSION["user"]["sexe"] ."<br>";
+                    echo "total : " . $_SESSION["total"];
                 ?>
             </p>
             <a href="logout.php"><button type="button" class="btn btn-danger">Déconnexion</button></a>

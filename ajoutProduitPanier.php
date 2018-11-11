@@ -1,21 +1,24 @@
 <?php
-include "Template/header.php";
 session_start();
-// require "Template/aside.php"
+require "function.php";
 ?>
 
 <?php
-
+// recupérer l'id du l'url
 $id = $_GET['id'];
-// $products = getProducts();
-if ($product['id'] == $id) {
-                    echo "Nom du produit : " . " " . $product['name'] . "<br>";
-                    echo "Le Prix : " . $product['price'] . "<br>";
-                    echo "La Catégorie : " . $product['category'] . "<br>";
-                    echo "Fabriqué en : " . $product['made_in'] . "<br>";
+$products = getProducts();
+// si le id entrer dans l'url correspend à l'id du produit ce dernier s'affiche
+// function totalPrix() {
+foreach ($products as $key => $value) {
+   if ($id == $value['id']) {
+       $product = $value;
+       array_push($_SESSION['panier'], $product);
+       function totalPrix() {
+        $_SESSION["total"] = $_SESSION["panier"]['price'] + $_SESSION["total"];
+        return $_SESSION["total"];
+        }
+       header("location: panier.php");
+       exit;
+   }
 }
-?>
-
-<?php
-include "Template/footer.php";
 ?>
