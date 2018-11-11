@@ -29,3 +29,6 @@
 </header>
 
 <!-- end header -->
+
+<!-- start main -->
+<main>

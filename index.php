@@ -5,8 +5,8 @@
 ?>
 <h4 class="text-danger text-center mt-5 mb-5">
   <?php
-      if(isset($_GET["message"])) {
-      $message = $_GET["message"];
+    if(isset($_GET["message"])) {
+      $message = htmlspecialchars($_GET["message"]);
       echo "<p> Attention : $message</p>";
     }
   ?>
@@ -21,14 +21,6 @@
     <div class="form-group">
       <label for="password" class="ml-3">Mot de passe : </label>
       <input type="password" class="form-control" name="password" placeholder="Entrer votre mot de passe...">
-    </div>
-    <div class="form-group">
-      <label for="status" class="ml-3">Status : </label>
-      <input type="text" class="form-control" name="status" placeholder="Entrer votre status...">
-    </div>
-    <div class="form-group">
-      <label for="sexe" class="ml-3">Sexe : </label>
-      <input type="text" class="form-control" name="sexe" placeholder="Entrer votre sexe...">
     </div>
     <button type="submit" class="btn btn-primary mb-5">Valider</button>
   </form>
